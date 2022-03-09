@@ -5,6 +5,7 @@ import Tracker from "./Screens/Tracker/Tracker"
 import SignUp from "./Screens/SignUp/SignUp"
 import Login from "./Screens/Login/Login"
 import Navbar from "./Components/Navbar/Navbar"
+import BodyPartExercises from "./Screens/BodyPartExercises/BodyPartExercises"
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Route path="/detail/:id" element={<Detail />} />
         <Route path="/signup" element={<SignUp />} />
         <Route path="/" element={<Login />} />
+        <Route path="/:bodypart" element={<BodyPartExercises />} />
       </Routes>
     </div>
   )
