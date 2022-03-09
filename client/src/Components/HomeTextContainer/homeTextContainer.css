@@ -1,0 +1,13 @@
+.home-text-container {
+  height: 200px;
+  border: 2px solid black;
+  width: 300px;
+  margin: 30px;
+  border-radius: 20px;
+  text-align: center;
+  box-shadow: 10px 10px black;
+  background-color: white;
+}
+.home-text-container:hover {
+  transform: scale(1.2);
+}
